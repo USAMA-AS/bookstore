@@ -1,5 +1,5 @@
 :root{
-    --pink:#E07C20;
+    --MainColor:#E07C20;
 }
 
 *{
@@ -33,7 +33,7 @@ section{
 }
 
 .heading span{
-    color:var(--pink);
+    color:var(--MainColor);
 }
 
 .btn{
@@ -48,7 +48,7 @@ section{
 }
 
 .btn:hover{
-    background:var(--pink);
+    background:var(--MainColor);
 }
 
 header{
@@ -70,7 +70,7 @@ header .logo{
 }
 
 header .logo span{
-    color:var(--pink);
+    color:var(--MainColor);
 }
 
 header .navbar a{
@@ -80,7 +80,7 @@ header .navbar a{
 }
 
 header .navbar a:hover{
-    color:var(--pink);
+    color:var(--MainColor);
 }
 header .icons{
     display: flex;
@@ -94,7 +94,7 @@ header .icons a{
 }
 
 header .icons a:hover{
-    color:var(--pink);
+    color:var(--MainColor);
 }
 
 header #toggler{
@@ -115,7 +115,7 @@ header .fa-bars{
 
 .custom-input{
     width: 0;
-    transition: width 0.4s linear;
+    transition: ease-in;
 }
 
 .single-search input::placeholder {
@@ -134,12 +134,44 @@ header .fa-bars{
 }
 
 .single-search:hover > .icon-area{
+    overflow: hidden;
     display: none;
     background: white;
 }
 
 
 /* Search icon end */
+
+
+/* Drop Down Starts for User and cart icons */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: #eee;
+    right: 0px;
+    min-width: max-content;
+    box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 60%);
+    z-index: 1;
+  
+}
+  
+.dropdown-content a {
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 20px !important;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+  /* Drop Down ENds */
 
 
 .home{
@@ -162,7 +194,7 @@ header .fa-bars{
 
 .home .content span{
     font-size: 3.5rem;
-    color:var(--pink);
+    color:var(--MainColor);
     padding:1rem 0;
     line-height: 1.5;
 }
@@ -279,7 +311,7 @@ header .fa-bars{
     top:1rem; left:1rem;
     padding:.7rem 1rem;
     font-size: 2rem;
-    color:var(--pink);
+    color:var(--MainColor);
     background:rgba(255, 51, 153,.05);
     z-index: 1;
     border-radius: .5rem;
@@ -315,7 +347,7 @@ header .fa-bars{
     line-height: 5rem;
     font-size: 2rem;
     width:50%;
-    background:var(--pink);
+    background:var(--MainColor);
     color:#fff;
 }
 
@@ -341,7 +373,7 @@ header .fa-bars{
 
 .products .box-container .box .content .price{
     font-size: 2.5rem;
-    color:var(--pink);
+    color:var(--MainColor);
     font-weight: bolder;
     padding-top: 1rem;
 }
@@ -376,7 +408,7 @@ header .fa-bars{
 }
 
 .review .box-container .box .stars i{
-    color:var(--pink);
+    color:var(--MainColor);
     font-size: 2rem;
 }
 
@@ -447,7 +479,7 @@ header .fa-bars{
 }
 
 .contact .row form .box:focus{
-    border-color: var(--pink);
+    border-color: var(--MainColor);
 }
 
 .contact .row form textarea{
@@ -479,7 +511,7 @@ header .fa-bars{
 }
 
 .footer .box-container .box a:hover{
-    color:var(--pink);
+    color:var(--MainColor);
     text-decoration: underline;
 }
 
@@ -499,8 +531,10 @@ header .fa-bars{
 }
 
 .footer .credit span{
-    color:var(--pink);
+    color:var(--MainColor);
 }
+
+/* login form */
 
 
 
