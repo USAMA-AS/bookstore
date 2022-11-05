@@ -148,12 +148,12 @@ header .fa-bars{
     padding-bottom: 3rem;
 }
 
-.about .row .video-container{
+.about .row .image-container{
     flex:1 1 40rem;
     position: relative;
 }
 
-.about .row .video-container video{
+.about .row .image-container img{
     width:100%;
     border:1.5rem solid #fff;
     border-radius: .5rem;
@@ -162,7 +162,7 @@ header .fa-bars{
     object-fit: cover;
 }
 
-.about .row .video-container h3{
+.about .row .image-container h3{
     position: absolute;
     top:50%; transform: translateY(-50%);
     font-size: 3rem;
@@ -231,6 +231,7 @@ header .fa-bars{
 }
 
 .products .box-container .box{
+    width: 10px;
     flex:1 1 30rem;
     box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
     border-radius: .5rem;
