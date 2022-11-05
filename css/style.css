@@ -82,7 +82,11 @@ header .navbar a{
 header .navbar a:hover{
     color:var(--pink);
 }
-
+header .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 header .icons a{
     font-size: 2.5rem;
     color:#333;
@@ -106,6 +110,37 @@ header .fa-bars{
     border:.1rem solid rgba(0,0,0,.3);
     display: none;
 }
+
+/* Search Icon */
+
+.custom-input{
+    width: 0;
+    transition: width 0.4s linear;
+}
+
+.single-search input::placeholder {
+    font-size: 2rem;
+    color: #666;
+}
+
+.single-search input{
+  font-size: 20px;
+}
+
+.single-search:hover > .custom-input{
+    padding: 0 10px;
+    width: 200px;
+    transition: width 0.4s linear;
+}
+
+.single-search:hover > .icon-area{
+    display: none;
+    background: white;
+}
+
+
+/* Search icon end */
+
 
 .home{
     display: flex;
@@ -466,18 +501,6 @@ header .fa-bars{
 .footer .credit span{
     color:var(--pink);
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
