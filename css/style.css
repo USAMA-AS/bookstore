@@ -174,6 +174,9 @@ header .fa-bars{
   /* Drop Down ENds */
 
 
+/* 
+Home section start  
+*/
 .home{
     display: flex;
     align-items: center;
@@ -205,6 +208,14 @@ header .fa-bars{
     padding:1rem 0;
     line-height: 1.5;
 }
+
+/* 
+Home section Ends
+*/
+
+/* 
+About section start
+*/
 
 .about .row{
     display: flex;
@@ -290,14 +301,23 @@ header .fa-bars{
     color:#555;
     font-size: 1.3rem;
 }
+/* 
+Abouts ENds
+*/
 
-.products .box-container{
+
+
+/* 
+Books section starts
+*/
+
+.books .box-container{
     display: flex;
     flex-wrap: wrap;
     gap:1.5rem;
 }
 
-.products .box-container .box{
+.books .box-container .box{
     width: 10px;
     flex:1 1 30rem;
     box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
@@ -306,7 +326,7 @@ header .fa-bars{
     position: relative;    
 }
 
-.products .box-container .box .discount{
+.books .box-container .box .discount{
     position: absolute;
     top:1rem; left:1rem;
     padding:.7rem 1rem;
@@ -317,32 +337,32 @@ header .fa-bars{
     border-radius: .5rem;
 }
 
-.products .box-container .box .image{
+.books .box-container .box .image{
     position: relative;
     text-align: center;
     padding-top: 2rem;
     overflow:hidden;
 }
 
-.products .box-container .box .image img{
+.books .box-container .box .image img{
     height:25rem;
 }
 
-.products .box-container .box:hover .image img{
+.books .box-container .box:hover .image img{
     transform: scale(1.1);
 }
 
-.products .box-container .box .image .icons{
+.books .box-container .box .image .icons{
     position: absolute;
     bottom:-7rem; left:0; right:0;
     display: flex;
 }
 
-.products .box-container .box:hover .image .icons{
+.books .box-container .box:hover .image .icons{
     bottom:0;
 }
 
-.products .box-container .box .image .icons a{
+.books .box-container .box .image .icons a{
     height: 5rem;
     line-height: 5rem;
     font-size: 2rem;
@@ -351,40 +371,47 @@ header .fa-bars{
     color:#fff;
 }
 
-.products .box-container .box .image .icons .cart-btn{
+.books .box-container .box .image .icons .cart-btn{
     border-left: .1rem solid #fff7;
     border-right: .1rem solid #fff7;
     width:100%;
 }
 
-.products .box-container .box .image .icons a:hover{
+.books .box-container .box .image .icons a:hover{
     background:#333;
 }
 
-.products .box-container .box .content{
+.books .box-container .box .content{
     padding:2rem;
     text-align: center;
 }
 
-.products .box-container .box .content h3{
+.books .box-container .box .content h3{
     font-size: 2.5rem;
     color:#333;
 }
 
-.products .box-container .box .content .price{
+.books .box-container .box .content .price{
     font-size: 2.5rem;
     color:var(--MainColor);
     font-weight: bolder;
     padding-top: 1rem;
 }
 
-.products .box-container .box .content .price span{
+.books .box-container .box .content .price span{
     font-size: 1.5rem;
     color:#999;
     font-weight: lighter;
     text-decoration: line-through;
 }
+/* 
+Books section Ends
+*/
 
+
+/* 
+Review Section Stats
+*/
 .review .box-container{
     display: flex;
     flex-wrap: wrap;
@@ -442,7 +469,10 @@ header .fa-bars{
     font-size: 1.5rem;
     color:#999;
 }
+/* Review section ends */
 
+
+/* Contact section starts */
 .contact .row{
     display: flex;
     flex-wrap: wrap-reverse;
@@ -486,6 +516,9 @@ header .fa-bars{
     height: 15rem;
     resize: none;
 }
+/* Contact section ends */
+
+/* Footer Starts */
 
 .footer .box-container{
     display: flex;
@@ -534,8 +567,7 @@ header .fa-bars{
     color:var(--MainColor);
 }
 
-/* login form */
-
+/* footerends */
 
 
 /* media queries  */
